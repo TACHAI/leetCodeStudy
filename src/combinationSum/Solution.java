@@ -42,6 +42,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+      // 回溯题目   39，40，46，47，78，90
+
       int[] can=new int[]{2,3,6,7};
       List<List<Integer>> res =combinationSum(can,7);
       res.forEach(e->{
