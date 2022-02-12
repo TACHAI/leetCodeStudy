@@ -53,13 +53,24 @@ public class Demo {
     public static void main(String[] args) {
         int[] nums={1,1,2};
 
-        List<List<Integer>> res =permute(nums);
-        for(int i=0;i<res.size();i++){
-            List<Integer> line=res.get(i);
-            for(int j=0;j<line.size();j++){
-                System.out.print(line.get(j));
-            }
-            System.out.println();
+//        List<List<Integer>> res =permute(nums);
+//        for(int i=0;i<res.size();i++){
+//            List<Integer> line=res.get(i);
+//            for(int j=0;j<line.size();j++){
+//                System.out.print(line.get(j));
+//            }
+//            System.out.println();
+//
+//        }
+//
+
+        Map<String,String> map = new HashMap<>();
+        map.put("ww",new String());
+        map.put("SS",new String());
+        map.put("CC",new String());
+
+        for(String str:map.keySet()){
+            System.out.println(str);
 
         }
     }
